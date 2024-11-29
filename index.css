@@ -1,0 +1,68 @@
+
+.block1,.block2,.block3 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(203, 177, 255);
+    margin: 100px 30px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 5px 5px 20px 0
+}
+.block1{
+    left: 14%;
+}
+.block2{
+    left:38%;
+}
+.block3{
+    left: 62%;
+}
+
+.marker1,.marker2,.marker3{
+    width: 120px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 5px 5px 5px 0
+}
+.marker1{
+    top: 50px;
+    left: 22%;
+}
+.marker2{
+    top: 50px;
+    left:46%;
+}
+.marker3{
+    top: 50px;
+    left: 70%;
+}
+
+h2 {
+    font-weight: bold; /* Напівжирний шрифт */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тінь */
+    color: #000;
+    background-color: rgb(92, 92, 253); 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+}
+
+p {
+    text-align: center;
+    list-style-type: none;
+    text-shadow: 1px 1px 25px
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.desk{
+    height: 500px;
+    width: 1200px;
+    border: 7px solid black;
+    background-color:blueviolet; 
+}
